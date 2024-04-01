@@ -2,23 +2,23 @@
 using namespace std;
 
 int main() {
-    // Declaraci髇 de la variable x y asignaci髇 de un valor
+    // Declaraci贸n de la variable X y asignaci贸n de un valor
     int x = 8;
     
-    // Declaraci髇 de un puntero ptr y asignaci髇 de la direcci髇 de memoria de x al puntero
+    // Declaraci贸n de un puntero ptr y asignaci贸n de la direcci贸n de memoria de x al puntero
     int *ptr = &x; 
 
-    // Imprimir la direcci髇 de memoria de x
-    cout << "La direcci髇 de memoria de x es: " << &x << endl;
+    // Imprimir la direcci贸n de memoria de x
+    cout << "La direcci贸n de memoria de x es: " << &x << endl;
 
-    // Imprimir el valor del puntero ptr (que es la direcci髇 de memoria de x)
-    cout << "La direcci髇 almacenada en el puntero ptr es: " << ptr << endl;
+    // Imprimir el valor del puntero ptr (que es la direcci贸n de memoria de x)
+    cout << "La direcci贸n almacenada en el puntero ptr es: " << ptr << endl;
 
     // Imprimir el valor apuntado por el puntero ptr (que es el valor de x)
     cout << "El valor apuntado por el puntero ptr es: " << *ptr << endl;
 
-    // Imprimir la direcci髇 de memoria del puntero ptr
-    cout << "La direcci髇 de memoria del puntero ptr es: " << &ptr << endl;
+    // Imprimir la direcci贸n de memoria del puntero ptr
+    cout << "La direcci贸n de memoria del puntero ptr es: " << &ptr << endl;
 
     return 0;
 }
