@@ -2,10 +2,10 @@
 using namespace std;
 int main() {
     // Tipos de datos en C y C++
-    int a; // Declaraci髇 de variable a
-    int b; // Declaraci髇 de variable b
+    int a; // Declaraci贸n de variable a
+    int b; // Declaraci贸n de variable b
 
-    // Asignaci髇 de valores
+    // Asignaci贸n de valoress
     a = 9;
     b = 5;
     
@@ -14,7 +14,7 @@ int main() {
 
     // Imprimir direcciones de memoria
 
-    //std::cout << "Direcci髇 de memoria de a: " << &a << std::endl;
+    //std::cout << "Direcci贸n de memoria de a: " << &a << std::endl;
  
     cout << "valor de la variable a: " << a << endl;
     cout << "valor de la variable b: " << b << endl;
